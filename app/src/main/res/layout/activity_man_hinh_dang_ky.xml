@@ -8,7 +8,8 @@
     android:padding="16dp"
     android:id="@+id/main"
     android:background="#F8F8F8"
-    tools:context=".ManHinhDangKy">
+    tools:context=".ManHinhDangKy"
+    android:layout_marginLeft="15dp">
 
 
         <ImageView
@@ -51,7 +52,7 @@
     <!-- phone Input -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_layout_sodienthoai"
-        android:layout_width="350dp"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginBottom="10dp">
@@ -69,7 +70,7 @@
         <!-- Email Input -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_layout_dangnhap"
-            android:layout_width="350dp"
+            android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginBottom="10dp">
@@ -88,7 +89,7 @@
         <!-- Password Input -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_layout_matkhau"
-            android:layout_width="350dp"
+            android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginBottom="10dp"
@@ -110,7 +111,7 @@
       <!-- Password Input -->
         <com.google.android.material.textfield.TextInputLayout
            android:id="@+id/input_layout_nhaplai_matkhau"
-           android:layout_width="350dp"
+           android:layout_width="355dp"
            android:layout_height="wrap_content"
            android:layout_marginLeft="10dp"
            android:paddingBottom="24dp"

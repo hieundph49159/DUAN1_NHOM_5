@@ -32,7 +32,7 @@ public class ManHinhDangNhap extends AppCompatActivity {
         loginButton.setOnClickListener(v -> {
             // Kiểm tra thông tin đăng nhập (tên người dùng, mật khẩu, v.v.)
             // Nếu đăng nhập thành công:
-            Intent intent = new Intent(); // Thay MainActivity bằng màn hình chính của bạn
+            Intent intent = new Intent(ManHinhDangNhap.this, ManHinhChinh.class); // Thay MainActivity bằng màn hình chính của bạn
             startActivity(intent);
             finish(); // Kết thúc Activity đăng nhập để không quay lại được
         });

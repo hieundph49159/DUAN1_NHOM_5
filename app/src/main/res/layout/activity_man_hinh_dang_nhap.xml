@@ -8,7 +8,8 @@
     android:padding="16dp"
     android:id="@+id/main"
     android:background="#F8F8F8"
-    tools:context=".ManHinhDangNhap">
+    tools:context=".ManHinhDangNhap"
+    android:layout_marginLeft="15dp">
 
 
     <ImageView
@@ -98,6 +99,7 @@
         android:layout_gravity="end"
         android:paddingTop="8dp"
         android:paddingBottom="24dp"
+        android:paddingRight="20dp"
         android:layout_marginEnd="18dp"/>
 
     <!-- Login Button -->
