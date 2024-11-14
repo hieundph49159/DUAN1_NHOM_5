@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".ManHinhLuaChon">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcom2" />
+
+    <!-- Centered Text Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SPORT-STORE"
+            android:textColor="#4CAF50"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical"
+            android:text="Tất cả những gì\n bạn cần đều có ở \n đây và được \n phân loại."
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:paddingBottom="40dp">
+
+
+        <Button
+            android:id="@+id/DangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đăng Nhập"
+            android:backgroundTint="#2a4a6c"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="16dp"
+            />
+
+
+        <Button
+            android:id="@+id/DangKy"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký"
+            android:backgroundTint="#BDD1D2"
+            android:textColor="#2a4a6c" />
+    </LinearLayout>
+
+</FrameLayout>
