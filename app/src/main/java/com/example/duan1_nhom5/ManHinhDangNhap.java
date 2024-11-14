@@ -49,8 +49,5 @@ public class ManHinhDangNhap extends AppCompatActivity {
             onBackPressed();  // Hoặc sử dụng finish() nếu muốn đóng activity hiện tại
         });
 
-       //12312jafia
-        //abchieu123
-        //hieisjds
     }
 }
