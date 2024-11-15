@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".frag.HomeFragment"
-    android:background="@color/design_default_color_primary"
+    android:background="#00D6EE"
     >
 
     <!-- TODO: Update blank fragment layout -->

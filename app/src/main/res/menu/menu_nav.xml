@@ -12,9 +12,32 @@
         android:id="@+id/menu_account"
         android:icon="@drawable/user_icon"
         android:title="Tài khoản"/>
+    <item
+
+
+        android:title="Chỉnh sửa hàng hóa"/>
+    <item
+
+        android:enabled="false"
+        android:title=""/>
+    <item
+        android:enabled="false"
+        android:title=""/>
+    <item
+        android:enabled="false"
+        android:title=""/>
+    <item
+        android:enabled="false"
+        android:title=""/>
+    <item
+        android:enabled="false"
+        android:title=""/>
 
     <item
         android:id="@+id/logout"
         android:title="Đăng xuất"
-        android:icon="@drawable/logout_icon" />"
+        android:icon="@drawable/logout_icon"
+
+
+        />
 </menu>
