@@ -3,5 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="vangnhat">#EAE7D6</color>
+    <color name="selected_tab_color">#00D6EE</color>
+    <color name="pressed_tab_color">#B3E5FC</color>
+    <color name="default_tab_color">#FFFFFF</color>
 
 </resources>

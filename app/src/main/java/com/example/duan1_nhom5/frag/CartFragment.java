@@ -14,11 +14,7 @@ import android.widget.Toast;
 import com.example.duan1_nhom5.ManHinhThanhToan;
 import com.example.duan1_nhom5.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link CartFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class CartFragment extends Fragment {
     Button btn_MH;
     // TODO: Rename parameter arguments, choose names that match
@@ -35,14 +31,8 @@ public class CartFragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment CartFragment.
-     */
+
+
     // TODO: Rename and change types and number of parameters
     public static CartFragment newInstance(String param1, String param2) {
         CartFragment fragment = new CartFragment();

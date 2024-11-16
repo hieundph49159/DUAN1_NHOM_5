@@ -1,8 +1,10 @@
 package com.example.duan1_nhom5;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -11,7 +13,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.duan1_nhom5.frag.CartFragment;
+
 public class ManHinhThanhToan extends AppCompatActivity {
+    TextView tv_back_to_cart;
 Button btn_ThanhToan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +29,7 @@ Button btn_ThanhToan;
             return insets;
         });
         btn_ThanhToan = findViewById(R.id.btn_ThanhToan);
+        tv_back_to_cart = findViewById(R.id.tv_back_to_cart);
         btn_ThanhToan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,5 +37,8 @@ Button btn_ThanhToan;
 
             }
         });
+
+
+
     }
 }
